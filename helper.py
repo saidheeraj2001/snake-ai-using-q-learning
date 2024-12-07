@@ -9,7 +9,7 @@ def plot_progress(scores, mean_scores):
     axis.clear()
     axis.plot(scores, label="Score", color='blue')
     axis.plot(mean_scores, label="Mean Score", color='green')
-    axis.set_title('Training Progress')
+    axis.set_title(' Team DD Training Progress graph')
     axis.set_xlabel('Number of Games')
     axis.set_ylabel('Score')
     axis.text(len(scores) - 1, scores[-1], str(scores[-1]), color='blue', fontsize=10)
